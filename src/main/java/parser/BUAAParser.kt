@@ -11,6 +11,10 @@ import parser.Parser
  * 北京航空航天大学本研教务系统课表解析器。
  *
  * 该解析器用于处理从北航新版教务系统 API 获取的课表 JSON 数据。
+ * 使用方法：访问 https://byxt.buaa.edu.cn/ ，登录后依次点击
+ *          “查询” -> “课表查询” -> “我的课表” -> “学期课表”
+ *          然后点击界面右下角下载按钮导入课表。
+ * 注意：一定要记得切换到学期课表，否则可能漏课。
  * API 端点: `https://byxt.buaa.edu.cn/jwapp/sys/homeapp/api/home/student/getMyScheduleDetail.do` (POST)
  *
  * ---
